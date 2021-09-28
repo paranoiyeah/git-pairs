@@ -24,7 +24,7 @@ git config --global commit.template ~/.gitmessage
 git config --global commit.co-authors ~/.git-co-authors
 ```
 
-- (Mac/Linux) Give paris execute permission, and move it to /usr/local, create link within bin
+- (MacOS/Linux) Give paris execute permission, and move it to /usr/local, create link within bin
 
 ```sh
 chmod +x ./git-paris/pairs
@@ -32,10 +32,15 @@ sudo mv ./git-pairs /usr/local
 sudo ls -s /usr/local/pairs /usr/local/bin/pairs
 ```
 
+- (Windows) Move pairs to home directory
+```sh
+mv ./git-pairs/pairs ~
+```
+
 ### Usage
 
-- Call `pairs`(macOS/linux) in terminal 
-- Call `~/git-pairs/pairs` in windows git bash
+- Call `pairs`(MacOS/Linux) in terminal 
+- Call `~/airs`(Windows) in git bash
 - Use space to toggle, enter to confirm
 
 ### Behind the scene

@@ -24,7 +24,7 @@ git config --global commit.template ~/.gitmessage
 git config --global commit.co-authors ~/.git-co-authors
 ```
 
-- Give paris execute permission, and move it to /usr/local, create link within bin
+- (Mac/Linux) Give paris execute permission, and move it to /usr/local, create link within bin
 
 ```sh
 chmod +x ./git-paris/pairs
@@ -34,7 +34,9 @@ sudo ls -s /usr/local/pairs /usr/local/bin/pairs
 
 ### Usage
 
-Call `pairs` anywhere within your terminal to select pairs, use space to toggle, enter to confirm
+- Call `pairs`(macOS/linux) in terminal 
+- Call `~/git-pairs/pairs` in windows git bash
+- Use space to toggle, enter to confirm
 
 ### Behind the scene
 

@@ -19,7 +19,7 @@ mv ./git-pairs/.git-co-authors ~
 - Set jira borad, template and co-authors location
 
 ```sh
-git config --global commit.jira TAS
+git config --global commit.jira AAA
 git config --global commit.template ~/.gitmessage
 git config --global commit.co-authors ~/.git-co-authors
 ```

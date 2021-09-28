@@ -40,7 +40,7 @@ mv ./git-pairs/pairs ~
 ### Usage
 
 - Call `pairs`(MacOS/Linux) in terminal 
-- Call `~/airs`(Windows) in git bash
+- Call `~/pairs`(Windows) in git bash
 - Use space to toggle, enter to confirm
 
 ### Behind the scene

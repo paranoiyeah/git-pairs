@@ -29,7 +29,7 @@ git config --global commit.co-authors ~/.git-co-authors
 ```sh
 chmod +x ./git-paris/pairs
 sudo mv ./git-pairs /usr/local
-sudo ln -s /usr/local/pairs /usr/local/bin/pairs
+sudo ln -s /usr/local/git-pairs/pairs /usr/local/bin/pairs
 ```
 
 - (Windows) Move pairs to home directory

@@ -51,4 +51,4 @@ This script will override the .gitmessage at the set path within global .gitconf
 
 <b>Reason</b>: VSCode is only watching for files within the opened directory, since ideally our config sits in home directory, it will not pick up the updated .gitmessage template automatically.
 
-<b>How to fix</b>: Empty the current auto generated template message, restart VSCode.
+<b>How to fix</b>: Empty the current auto generated template message, restart VSCode. Or you dont need to do anything, commit your current message and it will appear for your next one. :D
